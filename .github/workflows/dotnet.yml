@@ -55,7 +55,7 @@ jobs:
         with:
           host: 204.168.220.65
           username: root
-          key: nebula2000
+          key: ${{ secrets.SSH_KEY }}
           port: 22
           script: |
             echo "Conexión exitosa al VPS"
